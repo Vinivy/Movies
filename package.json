@@ -9,10 +9,20 @@
     "web": "expo start --web"
   },
   "dependencies": {
+    "@react-native-async-storage/async-storage": "1.23.1",
+    "@react-navigation/bottom-tabs": "^6.6.1",
+    "@react-navigation/native": "^6.1.18",
+    "@types/react": "~18.2.79",
+    "axios": "^1.7.2",
     "expo": "~51.0.21",
     "expo-status-bar": "~1.12.1",
+    "phosphor-react-native": "^2.0.0",
     "react": "18.2.0",
-    "react-native": "0.74.3"
+    "react-native": "0.74.3",
+    "react-native-image-picker": "^7.1.2",
+    "react-native-svg": "^15.4.0",
+    "react-native-svg-transformer": "^1.5.0",
+    "typescript": "~5.3.3"
   },
   "devDependencies": {
     "@babel/core": "^7.20.0"
