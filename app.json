@@ -3,5 +3,21 @@
     "name": "Movies",
     "slug": "Movies",
     "version": "1.0.0"
-  }
+  },
+  "packagerOpts": {
+      "config": "metro.config.js",
+      "sourceExts": [
+        "expo.ts",
+        "expo.tsx",
+        "expo.js",
+        "expo.jsx",
+        "ts",
+        "tsx",
+        "js",
+        "jsx",
+        "json",
+        "wasm",
+        "svg"
+      ]
+    }
 }

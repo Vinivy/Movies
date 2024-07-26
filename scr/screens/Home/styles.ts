@@ -15,8 +15,14 @@ export const Styles = StyleSheet.create({
         marginTop: 20,
     },
 
+    ContainerInput: {
+        flexDirection: 'row',
+        alignItems: 'center',
+        justifyContent: 'center',
+    },
+
     Input: {
-        width: 327,
+        width: '100%',
         height: 42,
 
         fontSize: 14,
