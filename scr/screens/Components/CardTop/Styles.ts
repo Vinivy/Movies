@@ -1,13 +1,13 @@
 import { StyleSheet } from 'react-native';
 
 export const Style = StyleSheet.create({
-    Image: {
+    Popular: {
         width: 100,
         height: 145,
         borderRadius: 15,
     },
 
-    CardMovies: {
+    Image: {
         width: 100,
         height: 145,
         borderRadius: 15,

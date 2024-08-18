@@ -1,3 +1,4 @@
+import { Rows } from 'phosphor-react-native';
 import { StyleSheet } from 'react-native';
 
 export const Styles = StyleSheet.create({
@@ -6,12 +7,12 @@ export const Styles = StyleSheet.create({
         backgroundColor: '#242A32',
         padding: 20,
     },
+
     HeaderText: {
         fontSize: 22,
         fontWeight: 'bold',
         lineHeight: 45,
         color: '#ffff',
-        marginBottom:20,
         marginTop: 20,
     },
 
@@ -19,6 +20,8 @@ export const Styles = StyleSheet.create({
         flexDirection: 'row',
         alignItems: 'center',
         justifyContent: 'center',
+        marginTop: 5,
+        marginBottom: 20,
     },
 
     Input: {
@@ -33,7 +36,22 @@ export const Styles = StyleSheet.create({
         paddingLeft: 25,
     },
 
-    Alta : {
+    options: {
+        paddingEnd: 10,
+        color: '#ffff',
+        fontSize: 14,
+        fontWeight: 'regular',
+        letterSpacing: 1,
+        marginTop: 10,
+        marginBottom: 10,
+    },
 
-    }
+    Alta: {
+
+    },
+
+    Rows: {
+        flexDirection: 'row',
+        justifyContent: 'space-between',
+    },
 }); 
